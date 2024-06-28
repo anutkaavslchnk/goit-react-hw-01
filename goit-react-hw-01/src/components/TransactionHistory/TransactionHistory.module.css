@@ -1,0 +1,27 @@
+.table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  
+th{
+    background-color: black;
+    color:#f2f2f2;
+    font-weight: 900;
+}
+
+.types{
+  text-transform: uppercase;
+}
+.containerTable{
+    margin: 0 auto;
+}
