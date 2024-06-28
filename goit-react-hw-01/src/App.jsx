@@ -2,6 +2,8 @@
 import './App.css';
 import Profile from './components/Profile/Profile';
 import userData from "../src/userData.json";
+import FriendList from './components/FriendList/FriendList';
+import friends from "../src/friends.json"
 function App() {
  
   return (
@@ -14,6 +16,8 @@ function App() {
           
 
         </Profile>
+
+        <FriendList friends={friends}></FriendList>
     </>
   )
 }
